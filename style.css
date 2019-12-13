@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.constant{
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	position: fixed;
+}
+
+/*****************************index page**************************/
+.hidden{
+    display: none;
+}
+.index,.question{
+	background-color: #FFF;
+	width: 70%;
+	top: 28%;
+	left:15%; 
+	border-radius: 20px;
+	position: fixed;
+	opacity: .98;
+}
+.index:last-of-type{
+	top: 17%;
+}
+.index img,.question img{
+	width: 25%;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: -50px;
+	margin-left:38%;
+	border: 2px solid #EEE;
+}
+.index form,.question form{
+	width: 80%;
+	margin:20px auto;
+}
+.index input,.index label{
+	display: block;
+	width: 80%;
+	margin:20px auto;
+	height: 30px;
+	border-radius:15px;
+	padding: 10px;
+}
+.index label{
+	color: red;
+	text-align: center;
+}
+.index label span,select{
+	color: black;
+	text-align: left;
+	float: left;
+	height: 30px;
+}
+select{
+	margin-left: 10px;
+	width: 50%;
+	margin-top:-1%;
+}
+
+input[type="submit"]{
+	cursor: pointer;
+	background-color: #00ADEF;
+	color: #FFF;
+}
+.index a{
+	display: block;
+	margin: auto;
+	width: 200px;
+	margin-top: 20px;
+	text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue
+}
+/**************************************question page********************/
+
+.question{
+	left: 100%
+}
+.question form{
+	width: 70%;
+	margin:20px auto;
+	text-align: center;
+}
+.question form > p{
+	font-size: 2em;
+}
+.question label{
+	display:flex;
+	text-align: left;
+	width: 100%;
+	padding: 5px
+}
+.question input,.question label p{
+	display: inline-block;
+}
+.question input{
+	width: 20px;
+	height: 20px;
+	margin: 5px 2px 5px 2px;
+}
+.question label p{
+	font-size: 1.3em;
+}
+.question input[type="button"]{
+	width: 80%;
+	margin:20px auto;
+	height: 30px;
+	border-radius: 15px;
+	background-color: #00ADEF;
+	color: #FFF;
+}
+/***************************************profile**********************************/
+header{
+	position: fixed;
+	top: 5%;
+	left: 10%;
+	background-color:#005A7D;
+	width: 80%;
+	height: 20%;
+	margin: auto;
+	padding: 20px;
+	border: 3px solid #000;
+	padding-top: 50px;
+	color:#FFF;
+	display: inline-flex;
+}
+hgroup{
+	width: 30%;
+	overflow: hidden;
+	text-align: center;
+}
+.profile{
+	position: fixed;
+	overflow: auto;
+	height: 62%;
+	background-color: #fff;
+	padding: 20px;
+	width: 80%;
+	left: 10%;
+	top:25%;
+	border: 3px solid #000;
+	border-bottom: none;
+}
+
+header > div,header > h1{
+	display: inline-block;
+}
+header > div{
+	display: inline-flex;
+	margin-top: 15px; 
+}
+.right{
+	float: right;
+}
+header input{
+	text-align: center;
+	width: 150px;
+	border-radius: 10px;
+	height: 20px;
+	background-color:#00ADEF;
+	color: #FFF;
+	margin-left: 10px;
+} 
+.search{
+	display: inline-flex;
+	margin: 10px;
+	width: 33%;
+	align-items: center;
+	margin-right: 20px;
+}
+.search input[type = "search"]{
+	width: 300px;
+	border-radius: 15px;
+	height: 30px;
+	margin-left: 30px;
+	padding: 7px;
+	color:#00ADEF;
+	background-color:#FFF;
+}
+.search input[type = "image"]{
+	width: 40px;
+	border-radius: 20px;
+	padding: 7px;
+	color:#00ADEF;
+	height: 40px;
+	margin-top: -5px;
+}
+.bttns{
+	max-width: 20%;
+}
+.clear{
+	clear: both;
+}
+.type{
+	width: 90%;
+	margin: 10px auto;
+	background-color:#00ADEF;
+	font-size: 1.5em;
+	padding: 10px 20px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.profile span,.profile img{
+	display: inline-block;
+	vertical-align: bottom;
+}
+.profile article{
+	width: 90%;
+	margin: 5px auto;
+	padding: 20px;
+	background-color:#00AEEF;
+	border-radius: 20px;
+}
+
+.charity{
+	margin: 10px;
+
+}
+legend{
+	border: 3px solid #ccc;
+	padding: 10px;
+	margin: auto;
+}
+table{
+	margin: 10px;
+}
+td{
+	min-width: 100px
+}
+.bookmark{
+	padding: 10px;
+	background-color:#fff;
+	margin: 10px;
+	float: right;
+	border-radius: 20px;
+	cursor: pointer;
+	border:2px solid #CCC;
+}
+.end{
+	position: fixed;
+	top: 87%;
+	left: 10%;
+	width: 80%;
+	height: 8%;
+	margin: auto;
+	background-color:#FFF;
+	border: 3px solid #000;
+	border-top: none;
+	padding: 10px;
+}
+.showBookmarks{
+	width: 40%;
+	margin: -5px 30% 10px 30%;
+	background-color:#00ADEF;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.cancel{
+	float: right;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+.cancel:hover{
+	background-color: red;
+	cursor: pointer;
+}
